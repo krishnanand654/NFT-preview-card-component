@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background: hsl(217, 54%, 11%);
+}
+.ctn{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.card-line{
+    
+    background: hsl(216, 50%, 16%);
+    border-radius:10px;
+    width:290px;
+    height: 470px;
+    padding:20px;
+ 
+    box-shadow: 1px 20px 0 15px  hsla(215, 54%, 7%, 0.125);
+}
+
+.img{
+    position: relative;
+}
+
+.card-img-top{
+    display: block;
+    width:auto;
+    height:250px;
+    border-radius: 10px;
+    opacity: 1;
+   
+}
+
+
+.card-overlay{
+ position: absolute;
+ background:hsla(178, 100%, 50%, 0.259);
+width:100%;
+height: 100%;
+border-radius: 10px;
+opacity: 0;
+}
+
+
+.overlay-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    cursor: pointer;
+}
+
+.card-overlay:hover{
+    opacity: 1;
+}
+
+  
+
+.card-text{
+    font-weight: 300;
+    font-size: 15px;
+   color:hsl(215, 51%, 70%);
+}
+
+.card-title{
+    color:white;
+    font-weight: 400;
+    font-size:16px;
+    padding: 10px 0 10px;
+    width: 140px;
+    cursor: pointer;
+}
+
+.card-title:hover{
+    color:hsl(178, 100%, 50%)
+}
+
+.eth{
+   
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+}
+
+.eth-img{
+    position: relative;
+    top:3px;
+    width: auto;
+    height: 15px;
+    padding-right:4px;
+}
+
+.flex{
+    padding: 15px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid hsla(215, 52%, 70%, 0.316);;
+}
+
+.time{
+    color: hsl(215, 51%, 70%);
+    font-size:12px;
+}
+
+.auth-img{
+    width:auto;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+
+.auth-sec{
+    margin:15px 0 0;
+    display: flex;
+}
+
+.auth{
+    position: relative;
+    top:6px;
+    font-size: 13px;
+    font-weight: 300;
+    color:hsl(215, 51%, 70%);
+    word-spacing: 1px;
+}
+
+.auth-name{
+    color: white;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.auth-name:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.attribution{
+    margin: 50px 0 0;
+    color:rgba(255, 255, 255, 0.568);
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.att-name{
+    color:aqua;
+}
